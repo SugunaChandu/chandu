@@ -1,0 +1,8 @@
+#to print unique values in the dictionary
+dict = {'496':'subhash','114':'subbu','502':'ravi','119':'ravi','520':'ram'}
+ll =[] 
+for i in dict.values(): 
+  if i in ll: 
+    continue 
+  else:
+    ll.append(i)
